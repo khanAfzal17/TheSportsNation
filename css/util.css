@@ -1,0 +1,37 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+ padding: 5px 10px;
+background-color: #2052e8;
+border: 2px solid white;
+color: white;
+border-radius: 4px;
+cursor: pointer;
+}
+.btn1:hover{
+    font-weight: bolder;
+}
+.btn2{
+    background-color: #ffffff;
+    border: 2px solid #2052e8;
+    color: #2052e8;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px;
+    margin: 19px;
+}
+.btn2:hover{
+    font-weight: bolder;
+}
+my-1{
+    margin:5px 0 ;
+}
+my-2{
+    margin: 26px 0;
+}
+.text-center{
+    text-align: center;
+}
