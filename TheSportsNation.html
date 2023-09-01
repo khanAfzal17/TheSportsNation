@@ -8,6 +8,167 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        
+  @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Yellowtail&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#2874f0;
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 110px;
+    padding:0 25px ;    
+}
+nav ul{
+    height: 68px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    /* font-family: 'Kablammo', cursive; */
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 23px;
+    width: 30vw;
+    border-radius:2px ;
+    margin:0 16px 0 56px ;
+    padding: 0 12px;
+}
+.slider{
+    /* margin: auto; */
+    width: 87vw;
+    margin:12px auto ;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin:37px auto;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    overflow:scroll;
+
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card h2{
+    font-family: 'Cosmic Sans', cursive;
+    margin: 12px auto;
+}
+nav ul li a:hover{
+    /* color: rgb(250, 1, 1); */
+    font-weight: bolder;
+    /* text-decoration: none; */
+    /* font-style: bold; */
+    font-family: 'Cosmic Sans', cursive;
+}
+.container{
+    min-height:calc(100vh - 68px - 12vh);
+}
+footer{
+    background-color: black;
+    height: 12vh;
+    color: aliceblue;
+    font-family: 'Kablammo', cursive;
+font-family: 'Yellowtail', cursive;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+ padding: 5px 10px;
+background-color: #2052e8;
+border: 2px solid white;
+color: white;
+border-radius: 4px;
+cursor: pointer;
+}
+.btn1:hover{
+    font-weight: bolder;
+}
+.btn2{
+    background-color: #ffffff;
+    border: 2px solid #2052e8;
+    color: #2052e8;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px;
+    margin: 19px;
+}
+.btn2:hover{
+    font-weight: bolder;
+}
+my-1{
+    margin:5px 0 ;
+}
+my-2{
+    margin: 26px 0;
+}
+.text-center{
+    text-align: center;
+}
+@media screen and  (max-width:1000px){
+nav{
+    flex-direction: column;
+}
+.slider{
+    height: 23vh;
+}
+.logo{
+    justify-content: center;
+   margin: 12px 0;
+}
+nav ul{
+    justify-content: center;
+}
+.search{
+    justify-content: center;
+}
+.search input{
+    margin: 12px 16px;
+}
+nav ul{
+    height: 34px;
+}
+.card-item img{
+    width: 140px;
+}
+}
+    </style>
 </head>
 
 <body>
@@ -25,7 +186,7 @@
                 <input type="text" name="" id="" placeholder="Search Here">
                 <button class="btn1">Search</button>
             <button class="btn2">Login</button>
-
+            
             </div>
             </div>
         </nav>
